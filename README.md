@@ -1,16 +1,78 @@
-# React + Vite
+## Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive currency converter web app built with **React (Vite)** and **Tailwind CSS**, allowing users to easily convert between multiple currencies in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+-  Converts any supported currency to another using live rates  
+-  Swap button to interchange currencies instantly  
+-  Rounded results up to 2 decimal places  
+-  Clean glassmorphism UI  
+-  Fully responsive and modern design  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
+- **React (Vite)**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Custom React Hooks**
+- **Currency API** – [fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sakeenabatool/currency-converter.git
+cd currency-converter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app:
+
+```bash
+npm run dev
+```
+
+Then open your browser at:  
+ **http://localhost:5173**
+
+---
+
+##  API Used
+
+This project uses free exchange rate data from:  
+`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json`
+
+---
+
+##  Folder Structure
+
+```
+src/
+├── assets/
+├── components/
+│   ├── InputBox.jsx
+│   └── hooks/
+│       └── useCurrencyInfo.js
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+##  Screenshot
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/a88ff816-2232-4cee-a800-bfd645d5f242" />
+
+
+### 💻 Developed by Sakeena Batool
